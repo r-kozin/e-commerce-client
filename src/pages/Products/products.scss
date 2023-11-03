@@ -1,0 +1,52 @@
+.products {
+  padding: 30px 50px;
+  display: flex;
+
+  .left {
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 80px;
+
+    .filterItem {
+      margin-bottom: 30px;
+
+      h2 {
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      .inputItem{
+        margin-bottom: 10px;
+        label{
+          margin-left: 5px;
+        }
+        .filterButton{
+          margin-top: 10px;
+          button{
+            width: 150px;
+            padding: 10px;
+            color: white;
+            background-color: #2879fe;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border: none;
+            font-weight: 500;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+  .right {
+    flex: 3;
+    .catImg {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 50px;
+    }
+  }
+}
